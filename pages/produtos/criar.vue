@@ -5,7 +5,7 @@
         v-model="produto.nome"
         :min="5"
         :rules="nomeRules"
-        label="Nome"
+        label="Nome do Produto"
         required
       ></v-text-field>
 
