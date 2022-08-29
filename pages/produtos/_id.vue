@@ -70,7 +70,7 @@ export default {
       try {
         await this.$axios({
           method: "PUT",
-          url: `https://localhost:7244/api/produto/${produto.id}`,
+          url: `https://localhost:7244/api/produto/${this.produto.id}`,
           data: this.produto,
         });
       } catch (err) {
